@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datos de la aplicación
+data/
+*.db
+*.sqlite3
+*.log
+
+# Archivos de configuración local
+.env
+config.local.json
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de respaldo
+*.bak
+*.swp
+*~
+
+# Archivos de exportación
+*.csv
+*.xlsx
+*.pdf
+
+# Archivos de entorno virtual
+.env
+.venv
+env/
+venv/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de PyCharm
+.idea/
+
+# Archivos de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*

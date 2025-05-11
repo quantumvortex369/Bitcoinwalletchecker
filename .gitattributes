@@ -1,0 +1,129 @@
+# Configuración para archivos de texto
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Archivos binarios que deben permanecer como están
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.pdb binary
+
+# Archivos específicos de Python
+*.py text diff=python
+*.pyw text diff=python
+*.pyi text diff=python
+*.pyx text diff=python
+*.pxd text diff=python
+*.pxi text diff=python
+*.pyd binary
+*.pyc binary
+*.pyo binary
+*.pth text
+*.whl binary
+
+# Archivos de documentación
+*.md text
+*.rst text
+*.txt text
+*.json text
+*.yaml text
+*.yml text
+*.toml text
+*.ini text
+*.cfg text
+*.conf text
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Archivos de configuración de IDEs y editores
+.editorconfig text
+.gitattributes text
+.gitignore text
+.gitmodules text
+*.sublime-project text
+*.sublime-workspace text
+.project text
+.classpath text
+*.tm_properties text
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf
+*.sln text eol=crlf binary
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf
+
+# Archivos de datos
+*.csv text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+
+# Archivos de pruebas
+*.test text
+*.spec text
+
+# Archivos de documentación
+docs/*.md text
+docs/*.rst text
+docs/*.txt text
+
+# Archivos de licencia
+LICENSE* text
+COPYING* text
+AUTHORS* text
+CONTRIBUTORS* text
+NOTICE* text
+CHANGELOG* text
+HISTORY* text
+README* text
+VERSION* text
+
+# Archivos de configuración de Python
+setup.cfg text
+setup.py text
+MANIFEST.in text
+pyproject.toml text
+Pipfile* text
+Pipfile.lock text
+poetry.lock text
+
+# Archivos de entorno
+.env text eol=lf
+.env.* text eol=lf
+!.env.example
+
+# Archivos de configuración de pre-commit
+.pre-commit-config.yaml text
+
+# Archivos de configuración de GitHub
+.github/**/*.yml text
+github/**/*.yaml text
+github/**/*.yml text
