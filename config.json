@@ -1,0 +1,39 @@
+{
+    "cryptocurrencies": {
+        "btc": {
+            "name": "Bitcoin",
+            "api_url": "https://api.blockcypher.com/v1/btc/main",
+            "explorer_url": "https://www.blockchain.com/btc/address",
+            "symbol": "₿"
+        },
+        "eth": {
+            "name": "Ethereum",
+            "api_url": "https://api.blockcypher.com/v1/eth/main",
+            "explorer_url": "https://etherscan.io/address",
+            "symbol": "Ξ"
+        },
+        "ltc": {
+            "name": "Litecoin",
+            "api_url": "https://api.blockcypher.com/v1/ltc/main",
+            "explorer_url": "https://blockchair.com/litecoin/address",
+            "symbol": "Ł"
+        },
+        "doge": {
+            "name": "Dogecoin",
+            "api_url": "https://sochain.com/api/v2/address/DOGE",
+            "explorer_url": "https://dogechain.info/address",
+            "symbol": "Ð"
+        }
+    },
+    "fiat_currencies": ["usd", "eur", "gbp", "jpy"],
+    "settings": {
+        "auto_update_rates": true,
+        "update_interval_minutes": 30,
+        "default_currency": "usd",
+        "enable_notifications": false,
+        "theme": "dark"
+    },
+    "api_keys": {
+        "coingecko": ""
+    }
+}
